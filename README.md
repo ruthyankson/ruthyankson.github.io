@@ -20,17 +20,33 @@ I am also a **Data Science** enthusiast, having completed the **ALX Data Science
 
 ## Projects
 
-### 1. [Project Name 1]
-- **Description**: Brief description of the project and its key features.
-- **Tech Stack**: Technologies used (e.g., Angular, Django, PostgreSQL)
-- **Live Demo**: [Link to Live Demo](https://example.com)
-- **GitHub Repo**: [Link to Repository](https://github.com/ruthyankson/project-1)
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
-### 2. [Project Name 2]
-- **Description**: Brief description of the project and its key features.
-- **Tech Stack**: Technologies used (e.g., React, Node.js, MySQL)
-- **Live Demo**: [Link to Live Demo](https://example.com)
-- **GitHub Repo**: [Link to Repository](https://github.com/ruthyankson/project-2)
+### 1. Project Name 1
+
+<div style="width: 100%; max-width: 400px;">
+<img src="path/to/image1.jpg" alt="Project 1 Image" style="border-radius: 10px; width: 100%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+</div>
+
+- **Description**: Brief description of the project and its key features. This project involves creating a dynamic and responsive web application for [specific purpose].
+- **Tech Stack**: Angular, Django, PostgreSQL
+- **Live Demo**: [View Live Demo](https://example.com)
+- **GitHub Repo**: [View Repository](https://github.com/ruthyankson/project-1)
+
+---
+
+### 2. Project Name 2
+
+<div style="width: 100%; max-width: 400px;">
+<img src="path/to/image2.jpg" alt="Project 2 Image" style="border-radius: 10px; width: 100%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+</div>
+
+- **Description**: Brief description of the project and its key features. This project is focused on building a scalable API for data processing and visualization.
+- **Tech Stack**: React, Node.js, MySQL
+- **Live Demo**: [View Live Demo](https://example.com)
+- **GitHub Repo**: [View Repository](https://github.com/ruthyankson/project-2)
+
+</div>
 
 ---
 
