@@ -1,4 +1,16 @@
-Unfortunately, the text does not provide a straightforward table that can be easily extracted and tabulated. However, I can try to summarize the information into a table format based on the text. Here is a possible table:
+| Water Body | Location | Images Used | Changes in Water Level | Changes in Vegetation | Changes in Land Use | Changes in River Course | Other Changes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Pra River | Ghana | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | Fluctuations in water level | Increase in vegetation | Expansion of agricultural lands, urbanization | Shifts in river course | Deforestation, reforestation efforts |
+| Pra River | Ghana | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | Fluctuations in water level | Increase in vegetation | Expansion of agricultural lands, urbanization | Shifts in river course | Deforestation, reforestation efforts |
+| Pra River | Ghana | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | Fluctuations in water level | Increase in vegetation | Expansion of agricultural lands, urbanization | Shifts in river course | Deforestation, reforestation efforts |
+| Black Volta River | Ghana | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | Decrease in water level | Decrease in vegetation | Expansion of agricultural lands, urbanization | Shifts in river course | Deforestation, reforestation efforts |
+| Black Volta River | Ghana | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | Decrease in water level | Decrease in vegetation | Expansion of agricultural lands, urbanization | Shifts in river course | Deforestation, reforestation efforts |
+| Ankobra River | Western, CXQ | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | Fluctuations in water level | Increase in vegetation | Expansion of agricultural lands, urbanization | Shifts in river course | Deforestation, reforestation efforts |
+| Ankobra River | Western, CXQ | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | Fluctuations in water level | Increase in vegetation | Expansion of agricultural lands, urbanization | Shifts in river course | Deforestation, reforestation efforts |
+
+
+
+Unfortunately, the text does not provide a straightforward table that can be easily extracted and tabulated. However, I can try to summarize the information into a table format based on the text. Here is a possible table: mt=8000
 
 | **Location** | **Images Used** | **River Course Changes** | **Vegetation Changes** | **Water Level Changes** | **Land Use Changes** | **Human Activities** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +22,7 @@ Please note that this table is not exhaustive and may not capture all the detail
 
 
 
-
+mmt=4000
 | **Location** | **Images Used** | **Analysis** | **Conclusion** |
 | --- | --- | --- | --- |
 | Pra River, GHA | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | The Pra River and its surroundings have undergone significant changes over the past decade. | The analysis suggests that the Pra River and its surroundings have undergone positive changes over the past decade, with improvements in vegetation, water quality, and land use. |
