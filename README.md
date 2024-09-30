@@ -1,3 +1,16 @@
+Unfortunately, the text does not provide a straightforward table that can be easily extracted and tabulated. However, I can try to summarize the information into a table format based on the text. Here is a possible table:
+
+| **Location** | **Images Used** | **River Course Changes** | **Vegetation Changes** | **Water Level Changes** | **Land Use Changes** | **Human Activities** |
+| --- | --- | --- | --- | --- | --- | --- |
+| Pra River, Ghana | 2014-2024 | Stable with minor changes | Increase in vegetation | Fluctuations | Agricultural expansion, urbanization | Deforestation, reforestation |
+| Black Volta, Ghana | 2014-2022 | Shifts in course | Decrease in vegetation | Decrease | Agricultural expansion, urbanization | Deforestation, land use changes |
+| Ankobra River, Western, CXQ | 2014-2024 | Changes in course | Increase in vegetation | Fluctuations | Agricultural expansion, urbanization | Deforestation, reforestation |
+
+Please note that this table is not exhaustive and may not capture all the details mentioned in the text. If you need a more detailed or specific table, please let me know and I'll do my best to assist you.
+
+
+
+
 | **Location** | **Images Used** | **Analysis** | **Conclusion** |
 | --- | --- | --- | --- |
 | Pra River, GHA | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | The Pra River and its surroundings have undergone significant changes over the past decade. | The analysis suggests that the Pra River and its surroundings have undergone positive changes over the past decade, with improvements in vegetation, water quality, and land use. |
