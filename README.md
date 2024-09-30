@@ -1,4 +1,12 @@
+Here is the tabulated response:
 
+| River Name | Images Used | Analysis | Conclusion |
+| --- | --- | --- | --- |
+| Pra River | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | The river has undergone significant changes, including increased vegetation, changes in river course, and fluctuations in water levels. | The analysis suggests that the Pra River has undergone positive changes over the past decade, with improvements in vegetation, water quality, and land use. |
+| Black Volta River | 2014-02-20, 2014-06-11, 2015-12-16, 2019-06-26, 2020-05-20, 2022-11-02 | The river has undergone significant changes, including changes in river width, vegetation, and human activity. | The analysis suggests that the Black Volta River has experienced significant changes over the past decade, with fluctuations in river width, vegetation, and human activity. |
+| Ankobra River | 2014-02-20, 2017-03-15, 2018-09-06, 2020-11-18, 2021-05-19, 2022-07-21, 2023-12-07, 2024-06-06 | The river has undergone significant changes, including changes in river course, vegetation, and human activity. | The analysis suggests that the Ankobra River has undergone significant changes over time, driven by a combination of natural and human-induced factors. |
+
+Note that each river source appears only once in the table.
 
 
 Here is the table of the response:
