@@ -1,3 +1,15 @@
+| Category | Rating | Probability of Illegal Mining | Countries Served | Service Effects | Environmental Effects | Socio-Economic Impact | Restoration Measures | Images Used |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Dark Green | 5 | Low | Ghana, other countries | Good water quality, supports agriculture and fishing | Minimal environmental impact | Positive socio-economic impact | Sustainable mining practices, wastewater treatment, education and awareness | Image 1 |
+| Light Green | 4 | Moderate | Ghana, other countries | Moderate water quality, some pollution | Some environmental impact | Moderate socio-economic impact | Sustainable mining practices, wastewater treatment, education and awareness | Image 2 |
+| Greenish-Brown | 3 | High | Ghana, other countries | Poor water quality, high pollution | Significant environmental impact | Negative socio-economic impact | Sustainable mining practices, wastewater treatment, education and awareness | Image 3 |
+| Brown | 2 | Very High | Ghana, other countries | Very poor water quality, severe pollution | Severe environmental impact | Very negative socio-economic impact | Sustainable mining practices, wastewater treatment, education and awareness | Image 4 |
+| Black | 1 | Extremely High | Ghana, other countries | Extremely poor water quality, extreme pollution | Extreme environmental impact | Extremely negative socio-economic impact | Sustainable mining practices, wastewater treatment, education and awareness | Image 5 |
+
+Note: The images used are not actual images, but rather hypothetical examples of the different categories of water color.
+
+
+
 Here is the tabulated response:
 
 | River Name | Images Used | Analysis | Conclusion |
