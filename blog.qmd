@@ -63,7 +63,7 @@ As illustrated in the @fig-ds_workflow, generative AI can support every stage of
 
 ## Expertise as the Bottleneck (Not Computation)
 
-![Expertise looks like debugging reasoning, not just code. Source: @giphy_expert_debugging_xT5LMWNOjGqJzUfyve](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3kzYjkwN2I2OTVlaHBhNjllY2hqZGt2cjZma2pyMjgwMmd3OTdreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMWNOjGqJzUfyve/giphy.gif)
+![Expertise looks like debugging reasoning, not just code. Source: @giphy_expert](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3kzYjkwN2I2OTVlaHBhNjllY2hqZGt2cjZma2pyMjgwMmd3OTdreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMWNOjGqJzUfyve/giphy.gif)
 
 
 For a long time, computation was the bottleneck in data science. Models were expensive to run. Data pipelines were slow. Today, that bottleneck has largely disappeared. What remains scarce is not compute, but judgment.
@@ -78,7 +78,8 @@ In this sense, expertise has become the true bottleneck. The faster the tool, th
 
 While generative AI can accelerate good practice, it can also actively make people worse at data science, especially beginners.
 
-![cool_bot_gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGY5YXo4NXg4OHM4YXc2czFzNnJoMHB4cTN5dGZpY3Ayc3MyaDF1eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZDarkeqshCX28Vjlp1/giphy.gif)
+![Generative AI can appear confident even when it is wrong. Source: @giphy_cool_bot.](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGY5YXo4NXg4OHM4YXc2czFzNnJoMHB4cTN5dGZpY3Ayc3MyaDF1eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZDarkeqshCX28Vjlp1/giphy.gif)
+
 
 One reason is hallucination: the generation of confident but incorrect information [@Ji_2023]. These errors are often subtle. A model may cite a non-existent method, apply a technique in the wrong context, or misstate a statistical principle. Experts tend to notice these issues because they already have mental models to compare against. Beginners often do not.
 
@@ -102,7 +103,8 @@ What it should not be used for is replacing statistical reasoning or validating 
 
 Developing AI literacy on top of strong data science fundamentals is key. This means learning how to interrogate AI outputs, how to challenge them, and how to integrate them into a workflow without surrendering responsibility.
 
-![good_student_gif](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3ZmcmI4cTJtcjY0OGMxd25jem03emlldGxtMG91a2Nsa3RxMGtwYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/imHJKSWL5rt8n0fZO8/giphy.gif)
+![Using generative AI effectively requires active judgment and verification. Source: @giphy_student_using_ai.](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3ZmcmI4cTJtcjY0OGMxd25jem03emlldGxtMG91a2Nsa3RxMGtwYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/imHJKSWL5rt8n0fZO8/giphy.gif)
+
 
 ## Conclusion: AI as a Mirror
 
