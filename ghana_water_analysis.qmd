@@ -1,3 +1,6 @@
+
+
+
 | Category | Rating | Probability of Illegal Mining | Countries Served | Service Effects | Environmental Effects | Socio-Economic Impact | Restoration Measures | Images Used |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Dark Green | 5 | Low | Ghana, other countries | Good water quality, supports agriculture and fishing | Minimal environmental impact | Positive socio-economic impact | Sustainable mining practices, wastewater treatment, education and awareness | Image 1 |
