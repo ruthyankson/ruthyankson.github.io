@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ruth Yankson">
+<meta name="dcterms.date" content="2024-01-17">
 
-<title>About – My Brand</title>
+<title>Generative AI Can’t Replace Expertise: It Exposes Its Absence – My Brand</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +22,28 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+q { quotes: "“" "”" "‘" "’"; }
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -97,11 +120,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Generative AI Can’t Replace Expertise: It Exposes Its Absence</span></a>
   </li>  
 </ul>
@@ -115,22 +138,57 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction-the-illusion-of-instant-data-science" id="toc-introduction-the-illusion-of-instant-data-science" class="nav-link active" data-scroll-target="#introduction-the-illusion-of-instant-data-science">Introduction: The Illusion of <q>Instant Data Science</q></a></li>
+  <li><a href="#what-generative-ai-really-does-and-what-it-absolutely-doesnt" id="toc-what-generative-ai-really-does-and-what-it-absolutely-doesnt" class="nav-link" data-scroll-target="#what-generative-ai-really-does-and-what-it-absolutely-doesnt">What Generative AI Really Does (and What It Absolutely Doesn’t)</a></li>
+  <li><a href="#the-data-science-workflow-where-expertise-gets-exposed" id="toc-the-data-science-workflow-where-expertise-gets-exposed" class="nav-link" data-scroll-target="#the-data-science-workflow-where-expertise-gets-exposed">The Data Science Workflow: Where Expertise Gets Exposed</a>
+  <ul class="collapse">
+  <li><a href="#data-collection-and-cleaning" id="toc-data-collection-and-cleaning" class="nav-link" data-scroll-target="#data-collection-and-cleaning">Data Collection and Cleaning</a></li>
+  <li><a href="#exploratory-analysis" id="toc-exploratory-analysis" class="nav-link" data-scroll-target="#exploratory-analysis">Exploratory Analysis</a></li>
+  <li><a href="#modeling-and-evaluation" id="toc-modeling-and-evaluation" class="nav-link" data-scroll-target="#modeling-and-evaluation">Modeling and Evaluation</a></li>
+  <li><a href="#interpretation-and-communication" id="toc-interpretation-and-communication" class="nav-link" data-scroll-target="#interpretation-and-communication">Interpretation and Communication</a></li>
+  </ul></li>
+  <li><a href="#expertise-as-the-bottleneck-not-computation" id="toc-expertise-as-the-bottleneck-not-computation" class="nav-link" data-scroll-target="#expertise-as-the-bottleneck-not-computation">Expertise as the Bottleneck (Not Computation)</a></li>
+  <li><a href="#when-generative-ai-makes-you-worse-at-data-science" id="toc-when-generative-ai-makes-you-worse-at-data-science" class="nav-link" data-scroll-target="#when-generative-ai-makes-you-worse-at-data-science">When Generative AI Makes You Worse at Data Science</a></li>
+  <li><a href="#how-students-should-actually-use-generative-ai" id="toc-how-students-should-actually-use-generative-ai" class="nav-link" data-scroll-target="#how-students-should-actually-use-generative-ai">How Students Should Actually Use Generative AI</a></li>
+  <li><a href="#conclusion-ai-as-a-mirror" id="toc-conclusion-ai-as-a-mirror" class="nav-link" data-scroll-target="#conclusion-ai-as-a-mirror">Conclusion: AI as a Mirror</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
-</div>
+<h1 class="title">Generative AI Can’t Replace Expertise: It Exposes Its Absence</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">data science</div>
+    <div class="quarto-category">generative ai</div>
+    <div class="quarto-category">machine learning</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ruth Yankson </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 17, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -140,11 +198,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>It’s all about RAY. Stay <strong>positive</strong>_ life is always <strong>good on the brightside</strong>.</p>
+<section id="introduction-the-illusion-of-instant-data-science" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-the-illusion-of-instant-data-science">Introduction: The Illusion of <q>Instant Data Science</q></h2>
+<p>Generative AI tools have arrived in data science with remarkable speed. In just a few years, tasks that once required hours of careful work,writing code, generating plots, summarizing results can now be completed in seconds with a well-phrased prompt. For students and practitioners alike, this has created a powerful and seductive belief: maybe I can skip the hard parts now. Why struggle through debugging, statistical assumptions, or exploratory analysis when an AI tool can seemingly do it for me?</p>
+<p>This belief is understandable. The outputs often look polished, confident, and technically correct. Code runs. Charts render. Explanations sound fluent. To many users, this feels like progress, perhaps even a sign that deep expertise is becoming less important.</p>
+<p>Yet something curious happens in practice. Two people can use the same generative AI tool on the same data science problem and walk away with dramatically different outcomes. Experts often extract real value: speed, clarity, and better alternatives to consider. Beginners, on the other hand, are more likely to produce fragile analyses, misleading conclusions, or outright errors,sometimes without realizing it <span class="citation" data-cites="bommasani2021foundation">(<a href="#ref-bommasani2021foundation" role="doc-biblioref">Bommasani et al. 2021</a>)</span>.</p>
+<p>This raises an uncomfortable but important question: if generative AI is so powerful, why does it seem to reward expertise rather than replace it?</p>
+</section>
+<section id="what-generative-ai-really-does-and-what-it-absolutely-doesnt" class="level2">
+<h2 class="anchored" data-anchor-id="what-generative-ai-really-does-and-what-it-absolutely-doesnt">What Generative AI Really Does (and What It Absolutely Doesn’t)</h2>
+<p>To answer that question, it helps to be precise about what generative AI actually does. At its core, generative AI systems,such as large language models,operate by identifying patterns in massive collections of text and code and then generating outputs that statistically resemble what they have seen before. They are exceptionally good at producing plausible responses.</p>
+<p>What they do not do is reason about truth in the way humans do. They do not understand the data-generating process, the domain context, or the real-world consequences of an analysis. They do not verify assumptions. They do not know when something is conceptually inappropriate, only when it looks syntactically reasonable.</p>
+<p>This is why generative AI outputs so often feel authoritative. The language is fluent. The structure is clean. The code follows conventions. But fluency is not the same as correctness <span class="citation" data-cites="Ji_2023">(<a href="#ref-Ji_2023" role="doc-biblioref">Ji et al. 2023</a>)</span>. In data science, syntactic correctness: code that runs, formulas that are well-formed, is only the starting point. Conceptual correctness is what matters: Is this the right analysis for this problem? Are the assumptions justified? Are the conclusions supported by evidence?</p>
+<p>Generative AI excels at mimicking competence, but it cannot verify truth. That responsibility remains squarely with the human using it.</p>
+</section>
+<section id="the-data-science-workflow-where-expertise-gets-exposed" class="level2">
+<h2 class="anchored" data-anchor-id="the-data-science-workflow-where-expertise-gets-exposed">The Data Science Workflow: Where Expertise Gets Exposed</h2>
+<p>This gap between plausibility and correctness becomes especially visible when we look at the data science workflow end to end. At each stage, generative AI can help. However, it also quietly exposes whether the user understands what they are doing.</p>
+<section id="data-collection-and-cleaning" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection-and-cleaning">Data Collection and Cleaning</h3>
+<p>Generative AI can suggest common data cleaning steps almost instantly: handling missing values, encoding categorical variables, removing outliers. These suggestions often look reasonable. Yet, <q>reasonable</q> is not the same as <q>appropriate</q>. Removing outliers without understanding their origin can erase meaningful signal. Imputing missing values without examining why they are missing can introduce bias. An expert knows that cleaning is not a checklist; it is a set of decisions grounded in context and intent.</p>
+</section>
+<section id="exploratory-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="exploratory-analysis">Exploratory Analysis</h3>
+<p>AI-generated plots can be visually appealing and quick to produce. But charts without context can mislead faster than having no charts at all. A correlation plot might look compelling, yet hide confounding variables. A trend line might imply stability where none exists. Experts use exploratory analysis to ask better questions, not to prematurely answer them. Without that mindset, visualization becomes decoration rather than insight.</p>
+</section>
+<section id="modeling-and-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="modeling-and-evaluation">Modeling and Evaluation</h3>
+<p>This is where problems often compound. Generative AI is very good at suggesting standard models and default evaluation metrics. Accuracy, precision, recall, and F1 scores. Howbeit,these appear frequently because they are common; whether they are appropriate depends entirely on the problem. A seasoned data scientist recognizes when a baseline is missing, when class imbalance distorts metrics, or when cross-validation has been applied incorrectly. A beginner, on the other hand, may see a high score and stop thinking.</p>
+</section>
+<section id="interpretation-and-communication" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation-and-communication">Interpretation and Communication</h3>
+<p>Perhaps the most dangerous stage is interpretation. Generative AI can produce confident narratives that sound persuasive even when the underlying evidence is weak. It can explain patterns that do not generalize, or imply causality where only correlation exists. Without expertise, these narratives are easy to accept and even easier to present to others.</p>
+<p>As illustrated in the <strong>?@fig-ds_workflow</strong>, generative AI can support every stage of the data science process. Nevertheless, it acts as a stress test of the user’s understanding at each step.</p>
+</section>
+</section>
+<section id="expertise-as-the-bottleneck-not-computation" class="level2">
+<h2 class="anchored" data-anchor-id="expertise-as-the-bottleneck-not-computation">Expertise as the Bottleneck (Not Computation)</h2>
+<p>For a long time, computation was the bottleneck in data science. Models were expensive to run. Data pipelines were slow. Today, that bottleneck has largely disappeared. What remains scarce is not compute, but judgment.</p>
+<p>Expertise shows up in subtle but crucial ways: asking the right questions, framing precise prompts, and knowing when an answer feels suspicious. It shows up in understanding statistical assumptions, ethical constraints, and domain-specific nuances that no generic model can infer reliably. It shows up in debugging reasoning, not just code. <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3kzYjkwN2I2OTVlaHBhNjllY2hqZGt2cjZma2pyMjgwMmd3OTdreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMWNOjGqJzUfyve/giphy.gif" class="img-fluid" alt="exper_gif"> Generative AI can generate many answers quickly, but it cannot tell you which answer matters. It cannot tell you which path is defensible, which result is fragile, or which conclusion would collapse under scrutiny. Those are human responsibilities.</p>
+<p>In this sense, expertise has become the true bottleneck. The faster the tool, the more visible that bottleneck becomes.</p>
+</section>
+<section id="when-generative-ai-makes-you-worse-at-data-science" class="level2">
+<h2 class="anchored" data-anchor-id="when-generative-ai-makes-you-worse-at-data-science">When Generative AI Makes You Worse at Data Science</h2>
+<p>While generative AI can accelerate good practice, it can also actively make people worse at data science, especially beginners.</p>
+<p>One reason is hallucination: the generation of confident but incorrect information <span class="citation" data-cites="Ji_2023">(<a href="#ref-Ji_2023" role="doc-biblioref">Ji et al. 2023</a>)</span>. These errors are often subtle. A model may cite a non-existent method, apply a technique in the wrong context, or misstate a statistical principle. Experts tend to notice these issues because they already have mental models to compare against. Beginners often do not.</p>
+<p>Another risk is overconfidence amplification. When an AI produces polished output, it can give users unwarranted confidence in their work. This leads to what might be called <q>cargo-cult data science</q>: practices are followed because they look right, not because they are understood. Code runs, so it must be correct. A metric improves, so the model must be better.</p>
+<p>The consequences are not just academic. In real-world settings, these failures can lead to flawed decisions, biased systems, and ethical breaches. Over-reliance on generative AI does not merely reduce learning; it can undermine professional responsibility.</p>
+</section>
+<section id="how-students-should-actually-use-generative-ai" class="level2">
+<h2 class="anchored" data-anchor-id="how-students-should-actually-use-generative-ai">How Students Should Actually Use Generative AI</h2>
+<p>For students in data science, the question is not whether to use generative AI, but how to use it well.</p>
+<p>Used properly, generative AI can be a powerful learning tool. It can help explain why certain methods are used, not just how to implement them. It can generate multiple alternative approaches, which students can then critique and compare. It can surface gaps in understanding by producing answers that prompt skepticism rather than acceptance.</p>
+<p>What it should not be used for is replacing statistical reasoning or validating conclusions. AI should not be the authority that declares an analysis <q>correct</q>. That role belongs to careful thinking, domain knowledge, and evidence.</p>
+<p>Developing AI literacy on top of strong data science fundamentals is key. This means learning how to interrogate AI outputs, how to challenge them, and how to integrate them into a workflow without surrendering responsibility.</p>
+</section>
+<section id="conclusion-ai-as-a-mirror" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-ai-as-a-mirror">Conclusion: AI as a Mirror</h2>
+<p>Generative AI does not level the playing field in data science. Instead, it acts like a mirror. It reflects the quality of the thinking behind the prompt. It accelerates good data science and bad data science alike.</p>
+<p>For those who can evaluate, critique, and contextualize its outputs, generative AI is a powerful assistant <span class="citation" data-cites="amershi2019guidelines">(<a href="#ref-amershi2019guidelines" role="doc-biblioref">Amershi et al. 2019</a>)</span>. For those who cannot, it becomes a source of hidden risk. The tool itself is not the problem. The absence of expertise is.</p>
+<p>The final takeaway is simple yet uncomfortable: <strong>if generative AI makes your work better, it is because you were already good</strong>. And <em>if it makes your work worse, it is not because the tool failed; it is because it revealed what was missing</em>.</p>
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-amershi2019guidelines" class="csl-entry" role="listitem">
+Amershi, Saleema, Daniel S. Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, et al. 2019. <span>“Guidelines for Human–AI Interaction.”</span> In <em>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</em>. CHI ’19. ACM. <a href="https://doi.org/10.1145/3290605.3300233">https://doi.org/10.1145/3290605.3300233</a>.
+</div>
+<div id="ref-bommasani2021foundation" class="csl-entry" role="listitem">
+Bommasani, Rishi, Drew A. Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael S. Bernstein, et al. 2021. <span>“On the Opportunities and Risks of Foundation Models.”</span> <em>arXiv Preprint arXiv:2108.07258</em>. <a href="https://arxiv.org/abs/2108.07258">https://arxiv.org/abs/2108.07258</a>.
+</div>
+<div id="ref-Ji_2023" class="csl-entry" role="listitem">
+Ji, Ziwei, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Ye Jin Bang, Andrea Madotto, and Pascale Fung. 2023. <span>“Survey of Hallucination in Natural Language Generation.”</span> <em>ACM Computing Surveys</em> 55 (12): 1–38. <a href="https://doi.org/10.1145/3571730">https://doi.org/10.1145/3571730</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
