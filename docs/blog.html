@@ -198,6 +198,16 @@ div.csl-indent {
 </header>
 
 
+<div id="fig-ds_workflow" class="quarto-float quarto-figure quarto-figure-center anchored" width="80%">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ds_workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/ds_workflow.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ds_workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Overview of the data science workflow showing five stages with AI assistance.
+</figcaption>
+</figure>
+</div>
 <section id="introduction-the-illusion-of-instant-data-science" class="level2">
 <h2 class="anchored" data-anchor-id="introduction-the-illusion-of-instant-data-science">Introduction: The Illusion of <q>Instant Data Science</q></h2>
 <p>Generative AI tools have arrived in data science with remarkable speed. In just a few years, tasks that once required hours of careful work,writing code, generating plots, summarizing results can now be completed in seconds with a well-phrased prompt. For students and practitioners alike, this has created a powerful and seductive belief: maybe I can skip the hard parts now. Why struggle through debugging, statistical assumptions, or exploratory analysis when an AI tool can seemingly do it for me?</p>
@@ -230,18 +240,31 @@ div.csl-indent {
 <section id="interpretation-and-communication" class="level3">
 <h3 class="anchored" data-anchor-id="interpretation-and-communication">Interpretation and Communication</h3>
 <p>Perhaps the most dangerous stage is interpretation. Generative AI can produce confident narratives that sound persuasive even when the underlying evidence is weak. It can explain patterns that do not generalize, or imply causality where only correlation exists. Without expertise, these narratives are easy to accept and even easier to present to others.</p>
-<p>As illustrated in the <strong>?@fig-ds_workflow</strong>, generative AI can support every stage of the data science process. Nevertheless, it acts as a stress test of the user’s understanding at each step.</p>
+<p>As illustrated in the <a href="#fig-ds_workflow" class="quarto-xref">Figure&nbsp;1</a>, generative AI can support every stage of the data science process. Nevertheless, it acts as a stress test of the user’s understanding at each step.</p>
 </section>
 </section>
 <section id="expertise-as-the-bottleneck-not-computation" class="level2">
 <h2 class="anchored" data-anchor-id="expertise-as-the-bottleneck-not-computation">Expertise as the Bottleneck (Not Computation)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3kzYjkwN2I2OTVlaHBhNjllY2hqZGt2cjZma2pyMjgwMmd3OTdreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMWNOjGqJzUfyve/giphy.gif" class="img-fluid figure-img"></p>
+<figcaption>exper_gif</figcaption>
+</figure>
+</div>
 <p>For a long time, computation was the bottleneck in data science. Models were expensive to run. Data pipelines were slow. Today, that bottleneck has largely disappeared. What remains scarce is not compute, but judgment.</p>
-<p>Expertise shows up in subtle but crucial ways: asking the right questions, framing precise prompts, and knowing when an answer feels suspicious. It shows up in understanding statistical assumptions, ethical constraints, and domain-specific nuances that no generic model can infer reliably. It shows up in debugging reasoning, not just code. <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3kzYjkwN2I2OTVlaHBhNjllY2hqZGt2cjZma2pyMjgwMmd3OTdreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMWNOjGqJzUfyve/giphy.gif" class="img-fluid" alt="exper_gif"> Generative AI can generate many answers quickly, but it cannot tell you which answer matters. It cannot tell you which path is defensible, which result is fragile, or which conclusion would collapse under scrutiny. Those are human responsibilities.</p>
+<p>Expertise shows up in subtle but crucial ways: asking the right questions, framing precise prompts, and knowing when an answer feels suspicious. It shows up in understanding statistical assumptions, ethical constraints, and domain-specific nuances that no generic model can infer reliably. It shows up in debugging reasoning, not just code.</p>
+<p>Generative AI can generate many answers quickly, but it cannot tell you which answer matters. It cannot tell you which path is defensible, which result is fragile, or which conclusion would collapse under scrutiny. Those are human responsibilities.</p>
 <p>In this sense, expertise has become the true bottleneck. The faster the tool, the more visible that bottleneck becomes.</p>
 </section>
 <section id="when-generative-ai-makes-you-worse-at-data-science" class="level2">
 <h2 class="anchored" data-anchor-id="when-generative-ai-makes-you-worse-at-data-science">When Generative AI Makes You Worse at Data Science</h2>
 <p>While generative AI can accelerate good practice, it can also actively make people worse at data science, especially beginners.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGY5YXo4NXg4OHM4YXc2czFzNnJoMHB4cTN5dGZpY3Ayc3MyaDF1eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZDarkeqshCX28Vjlp1/giphy.gif" class="img-fluid figure-img"></p>
+<figcaption>cool_bot_gif</figcaption>
+</figure>
+</div>
 <p>One reason is hallucination: the generation of confident but incorrect information <span class="citation" data-cites="Ji_2023">(<a href="#ref-Ji_2023" role="doc-biblioref">Ji et al. 2023</a>)</span>. These errors are often subtle. A model may cite a non-existent method, apply a technique in the wrong context, or misstate a statistical principle. Experts tend to notice these issues because they already have mental models to compare against. Beginners often do not.</p>
 <p>Another risk is overconfidence amplification. When an AI produces polished output, it can give users unwarranted confidence in their work. This leads to what might be called <q>cargo-cult data science</q>: practices are followed because they look right, not because they are understood. Code runs, so it must be correct. A metric improves, so the model must be better.</p>
 <p>The consequences are not just academic. In real-world settings, these failures can lead to flawed decisions, biased systems, and ethical breaches. Over-reliance on generative AI does not merely reduce learning; it can undermine professional responsibility.</p>
@@ -252,6 +275,12 @@ div.csl-indent {
 <p>Used properly, generative AI can be a powerful learning tool. It can help explain why certain methods are used, not just how to implement them. It can generate multiple alternative approaches, which students can then critique and compare. It can surface gaps in understanding by producing answers that prompt skepticism rather than acceptance.</p>
 <p>What it should not be used for is replacing statistical reasoning or validating conclusions. AI should not be the authority that declares an analysis <q>correct</q>. That role belongs to careful thinking, domain knowledge, and evidence.</p>
 <p>Developing AI literacy on top of strong data science fundamentals is key. This means learning how to interrogate AI outputs, how to challenge them, and how to integrate them into a workflow without surrendering responsibility.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3ZmcmI4cTJtcjY0OGMxd25jem03emlldGxtMG91a2Nsa3RxMGtwYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/imHJKSWL5rt8n0fZO8/giphy.gif" class="img-fluid figure-img"></p>
+<figcaption>good_student_gif</figcaption>
+</figure>
+</div>
 </section>
 <section id="conclusion-ai-as-a-mirror" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion-ai-as-a-mirror">Conclusion: AI as a Mirror</h2>
