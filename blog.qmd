@@ -79,6 +79,14 @@ One reason is hallucination: the generation of confident but incorrect informati
 
 Another risk is overconfidence amplification. When an AI produces polished output, it can give users unwarranted confidence in their work. This leads to what might be called "cargo-cult data science": practices are followed because they look right, not because they are understood. Code runs, so it must be correct. A metric improves, so the model must be better.
 
+::: {#fig-stats width="70%"}
+![](img/stat_support.png)
+
+Developer attitudes toward AI-generated code quality and verification
+:::
+
+Evidence (@fig-stats) from practice supports this concern. In a recent industry survey of software developers, 96% reported that they do not fully trust AI-generated code to be functionally correct, yet only about 48% said they always check the code before using it, and 61% agreed that AI-generated code often appears correct even when it contains errors.
+
 The consequences are not just academic. In real-world settings, these failures can lead to flawed decisions, biased systems, and ethical breaches. Over-reliance on generative AI does not merely reduce learning; it can undermine professional responsibility.
 
 ## How Students Should Actually Use Generative AI
