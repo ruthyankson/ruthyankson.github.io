@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Generative AI Can't Replace Expertise: It Exposes Its Absence"
 author: "Ruth Yankson"
 date: 2024-01-17
 categories: [data science, generative ai, machine learning]
@@ -7,10 +7,11 @@ html:
     toc: true
     toc-depth: 2
     css: styles.css
-bibliography: references.bib
----
+bibliography: 
+    - references.bib
+    - image_sources.bib
 
-# Generative AI Can't Replace Expertise: It Exposes Its Absence
+---
 
 ::: {#fig-ds_workflow width="80%"}
 ![](img/ds_workflow.png)
@@ -62,7 +63,8 @@ As illustrated in the @fig-ds_workflow, generative AI can support every stage of
 
 ## Expertise as the Bottleneck (Not Computation)
 
-![exper_gif](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3kzYjkwN2I2OTVlaHBhNjllY2hqZGt2cjZma2pyMjgwMmd3OTdreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMWNOjGqJzUfyve/giphy.gif)
+![Expertise looks like debugging reasoning, not just code. Source: @giphy_expert_debugging_xT5LMWNOjGqJzUfyve](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3kzYjkwN2I2OTVlaHBhNjllY2hqZGt2cjZma2pyMjgwMmd3OTdreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMWNOjGqJzUfyve/giphy.gif)
+
 
 For a long time, computation was the bottleneck in data science. Models were expensive to run. Data pipelines were slow. Today, that bottleneck has largely disappeared. What remains scarce is not compute, but judgment.
 
