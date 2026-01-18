@@ -1,13 +1,16 @@
 ---
-title: "Generative AI Can't Replace Expertise: It Exposes Its Absence"
+title: "Blog"
 author: "Ruth Yankson"
 date: 2024-01-17
 categories: [data science, generative ai, machine learning]
 html:
     toc: true
     toc-depth: 2
+    css: styles.css
 bibliography: references.bib
 ---
+
+# Generative AI Can't Replace Expertise: It Exposes Its Absence
 
 ::: {#fig-ds_workflow width="80%"}
 ![](img/ds_workflow.png)
@@ -81,8 +84,6 @@ Another risk is overconfidence amplification. When an AI produces polished outpu
 
 ::: {#fig-stats width="70%"}
 ![](img/stat_support.png)
-
-Developer attitudes toward AI-generated code quality and verification
 :::
 
 Evidence (@fig-stats) from practice supports this concern. In a recent industry survey of software developers, 96% reported that they do not fully trust AI-generated code to be functionally correct, yet only about 48% said they always check the code before using it, and 61% agreed that AI-generated code often appears correct even when it contains errors.
