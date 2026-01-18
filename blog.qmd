@@ -7,8 +7,13 @@ html:
     toc: true
     toc-depth: 2
 bibliography: references.bib
-image: "img/ds_workflow.png"
 ---
+
+::: {#fig-ds_workflow width="80%"}
+![](img/ds_workflow.png)
+
+Overview of the data science workflow showing five stages with AI assistance.
+:::
 
 ## Introduction: The Illusion of "Instant Data Science"
 
@@ -54,10 +59,12 @@ As illustrated in the @fig-ds_workflow, generative AI can support every stage of
 
 ## Expertise as the Bottleneck (Not Computation)
 
+![exper_gif](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3kzYjkwN2I2OTVlaHBhNjllY2hqZGt2cjZma2pyMjgwMmd3OTdreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMWNOjGqJzUfyve/giphy.gif)
+
 For a long time, computation was the bottleneck in data science. Models were expensive to run. Data pipelines were slow. Today, that bottleneck has largely disappeared. What remains scarce is not compute, but judgment.
 
 Expertise shows up in subtle but crucial ways: asking the right questions, framing precise prompts, and knowing when an answer feels suspicious. It shows up in understanding statistical assumptions, ethical constraints, and domain-specific nuances that no generic model can infer reliably. It shows up in debugging reasoning, not just code.
-![exper_gif](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3kzYjkwN2I2OTVlaHBhNjllY2hqZGt2cjZma2pyMjgwMmd3OTdreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMWNOjGqJzUfyve/giphy.gif)
+
 Generative AI can generate many answers quickly, but it cannot tell you which answer matters. It cannot tell you which path is defensible, which result is fragile, or which conclusion would collapse under scrutiny. Those are human responsibilities.
 
 In this sense, expertise has become the true bottleneck. The faster the tool, the more visible that bottleneck becomes.
@@ -65,6 +72,8 @@ In this sense, expertise has become the true bottleneck. The faster the tool, th
 ## When Generative AI Makes You Worse at Data Science
 
 While generative AI can accelerate good practice, it can also actively make people worse at data science, especially beginners.
+
+![cool_bot_gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGY5YXo4NXg4OHM4YXc2czFzNnJoMHB4cTN5dGZpY3Ayc3MyaDF1eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZDarkeqshCX28Vjlp1/giphy.gif)
 
 One reason is hallucination: the generation of confident but incorrect information [@Ji_2023]. These errors are often subtle. A model may cite a non-existent method, apply a technique in the wrong context, or misstate a statistical principle. Experts tend to notice these issues because they already have mental models to compare against. Beginners often do not.
 
@@ -81,6 +90,8 @@ Used properly, generative AI can be a powerful learning tool. It can help explai
 What it should not be used for is replacing statistical reasoning or validating conclusions. AI should not be the authority that declares an analysis "correct". That role belongs to careful thinking, domain knowledge, and evidence.
 
 Developing AI literacy on top of strong data science fundamentals is key. This means learning how to interrogate AI outputs, how to challenge them, and how to integrate them into a workflow without surrendering responsibility.
+
+![good_student_gif](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3ZmcmI4cTJtcjY0OGMxd25jem03emlldGxtMG91a2Nsa3RxMGtwYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/imHJKSWL5rt8n0fZO8/giphy.gif)
 
 ## Conclusion: AI as a Mirror
 
