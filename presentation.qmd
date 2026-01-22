@@ -306,6 +306,12 @@ With these statistics in front of you, are you convinced enough to **up your gam
 Or do you still want to stay complacent and **let Gen AI control how you solve problems?**
 :::
 
+::: {.notes}
+Let me bring this home with a question:
+
+So, with these statistics in front of you, are you convinced enough to up your game as an expert data scientist by studying rigorously and critically evaluating AI outputs? Or do you still want to stay complacent and let Gen AI control how you solve problems?
+:::
+
 ---
 
 ### {background-color="#0d47a1"}
@@ -320,35 +326,29 @@ It reflects the quality of thinking behind the prompt.
 
 It accelerates **good** data science *and* **bad** data science alike.
 
-<br>
+::: {.notes}
+
+Remember: Gen AI is a mirror. It reflects the quality of thinking behind the prompt. It accelerates good data science and bad data science alike.
+
+:::
+
+---
+
+### Remember:
 
 ::: {.fragment}
-#### Remember:
-
 ::: {.incremental}
 - If Gen AI makes your work **better**, it's because **you were already good**
-- If it makes your work **worse**, it's not because the tool failed—it's because **it revealed what was missing**
+- If it makes your work **worse**, it's not because the tool failed: it's because **it revealed what was missing**
 :::
 :::
 
-<br>
+---
 
 ::: {.fragment}
 ::: {.r-fit-text}
 **Thank you.**
 :::
-:::
-
-::: {.notes}
-Let me bring this home with a question:
-
-So, with these statistics in front of you, are you convinced enough to up your game as an expert data scientist by studying rigorously and critically evaluating AI outputs? Or do you still want to stay complacent and let Gen AI control how you solve problems?
-
-Remember: Gen AI is a mirror. It reflects the quality of thinking behind the prompt. It accelerates good data science and bad data science alike.
-
-If Gen AI makes your work better, it's because you were already good. If it makes your work worse, it's not because the tool failed; it's because it revealed what was missing.
-
-Thank you.
 :::
 
 ---
