@@ -154,11 +154,7 @@ Why? Because Gen AI mimics competence brilliantly, but cannot verify truth. The 
 3. Can you identify when Gen AI **hallucinates** a statistical method or misapplies a technique?
 :::
 
-::: {.fragment}
-::: {#fig-question width="70%"}
 ![](img/questionme.jpg)
-:::
-:::
 
 ::: {.notes}
 Consider these questions:
@@ -353,8 +349,7 @@ Remember: Gen AI is a mirror. It reflects the quality of thinking behind the pro
 :::
 :::
 
-::: {.fragment}
 ![Using generative AI effectively requires active judgment and verification. Source: @giphy_student_using_ai.](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3ZmcmI4cTJtcjY0OGMxd25jem03emlldGxtMG91a2Nsa3RxMGtwYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/imHJKSWL5rt8n0fZO8/giphy.gif)
-:::
+
 
 
