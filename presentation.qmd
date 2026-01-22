@@ -18,13 +18,9 @@ format:
 ### What is the Data Science Workflow? {background-color="#bbdefb"}
 
 ::: {.fragment}
-::: {#fig-ds_workflow width="80%"}
-![](img/ds_workflow.png)
-
-Overview of the data science workflow showing five stages with AI assistance.
+![Data Science Workflow](img/ds_workflow.png){width="80%" fig-align="center"}
 
 *Created with ChatGPT*
-:::
 :::
 
 ::: {.notes}
@@ -154,7 +150,9 @@ Why? Because Gen AI mimics competence brilliantly, but cannot verify truth. The 
 3. Can you identify when Gen AI **hallucinates** a statistical method or misapplies a technique?
 :::
 
-![](img/questionme.jpg)
+::: {.fragment}
+![Question](img/questionme.jpg)
+:::
 
 ::: {.notes}
 Consider these questions:
