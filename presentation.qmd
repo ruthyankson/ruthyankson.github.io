@@ -2,7 +2,7 @@
 title: "Generative AI Can't Replace Expertise"
 subtitle: "It Exposes Its Absence"
 author: "Ruth Yankson"
-date: today
+date: "today"
 format:
   revealjs:
     theme: sky
@@ -11,11 +11,9 @@ format:
     slide-number: true
     chalkboard: true
     footer: "Generative AI & Data Science Expertise"
-    logo: ""
     css: styles.css
 ---
 
-## Understanding the Role of Data Science Expertise {.smaller background-color="#e3f2fd"}
 
 ::: {.notes}
 Good morning everyone. Here's a critical question: Can you competently use generative AI for data science workflows when you've barely been introduced to data science concepts? 
@@ -25,7 +23,7 @@ The uncomfortable truth is this: Generative AI doesn't replace expertise—it ex
 
 ---
 
-## What is the Data Science Workflow? {background-color="#bbdefb"}
+### What is the Data Science Workflow? {background-color="#bbdefb"}
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -63,7 +61,7 @@ At each stage, critical decisions must be made: decisions that require understan
 
 ---
 
-## How Can Gen AI Assist? {background-color="#90caf9"}
+### How Can Gen AI Assist? {background-color="#90caf9"}
 
 ::: {.columns}
 ::: {.column width="33%"}
@@ -117,7 +115,7 @@ Interpretation: This is the most dangerous stage. Gen AI produces confident narr
 
 ---
 
-## A Tale of Two Outputs {background-color="#64b5f6"}
+### A Tale of Two Outputs {background-color="#64b5f6"}
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -172,7 +170,7 @@ Why? Because Gen AI mimics competence brilliantly, but cannot verify truth. The 
 
 ---
 
-## Thought-Provoking Questions {background-color="#42a5f5"}
+### Thought-Provoking Questions {background-color="#42a5f5"}
 
 ::: {.incremental}
 1. If Gen AI is so powerful, **why do two people get completely different results** from the same prompt?
@@ -196,13 +194,13 @@ Consider these questions:
 
 ---
 
-## Claims Against the Motion {background-color="#2196f3"}
+### Common Claims {background-color="#2196f3"}
 
 ::: {.columns}
 ::: {.column width="50%"}
 #### Claim 1
 
-*"Gen AI democratizes data science—anyone can do it now!"*
+*"Gen AI democratizes data science: anyone can do it now!"*
 
 ::: {.fragment .fade-in}
 **Why it's weak:**
@@ -228,14 +226,6 @@ Cannot understand context, ethics, or domain nuances
 :::
 :::
 
-<br>
-
-::: {.fragment}
-#### Claim 3: *"Experts are being alarmist"*
-
-**The evidence:** 96% of developers don't trust AI code, yet only 48% check it. That's not alarmism—that's **dangerous overconfidence**.
-:::
-
 ::: {.notes}
 Some argue: 'Gen AI democratizes data science—anyone can do it now!'
 
@@ -250,42 +240,37 @@ The claim that 'experts are being alarmist' ignores reality: 96% of developers d
 
 ---
 
-## Statistical Evidence {background-color="#1976d2"}
+### Statistical Evidence {background-color="#1976d2"}
 
 #### The Data Tells a Clear Story
 
-::: {.r-fit-text}
-:::
+```{r}
+#| echo: false
+#| fig-width: 10
+#| fig-height: 5
+library(ggplot2)
 
-<br>
+# Create data
+df <- data.frame(
+  category = c(
+    "Don't Fully Trust\nAI-Generated Code",
+    "Always Check Code\nBefore Using",
+    "AI Code Appears Correct\nWhen It Contains Errors"
+  ),
+  percentage = c(96, 48, 61),
+  group = c("trust", "check", "errors")
+)
 
-::: {.columns}
-::: {.column width="33%"}
-::: {.fragment .highlight-current-blue}
-**96%**
-
-of developers don't fully trust AI-generated code
-:::
-:::
-
-::: {.column width="33%"}
-::: {.fragment .highlight-current-red}
-**48%**
-
-always check code before using it
-:::
-:::
-
-::: {.column width="33%"}
-::: {.fragment .highlight-current-red}
-**61%**
-
-agree AI code often appears correct when it contains errors
-:::
-:::
-:::
-
-<br>
+# Create bar plot
+ggplot(df, aes(x = reorder(category, percentage), y = percentage, fill = group)) +
+  geom_col(width = 0.7) +
+  geom_text(aes(label = paste0(percentage, "%")), hjust = -0.2, size = 6) +
+  coord_flip() +
+  scale_y_continuous(limits = c(0, 105), breaks = seq(0, 100, 25)) +
+  labs(x = "", y = "Percentage of Developers") +
+  theme_minimal(base_size = 16) +
+  theme(legend.position = "none")
+```
 
 ::: {.fragment}
 #### This is Cargo-Cult Data Science
@@ -307,7 +292,7 @@ This is cargo-cult data science: practices followed because they look right, not
 
 ---
 
-## Conclusion {background-color="#0d47a1"}
+### Conclusion {background-color="#0d47a1"}
 
 ::: {.r-fit-text}
 **A Question for You**
@@ -327,7 +312,7 @@ Or do you still want to stay complacent and **let Gen AI control how you solve p
 
 ---
 
-## {background-color="#0d47a1"}
+### {background-color="#0d47a1"}
 
 ::: {.r-fit-text}
 **Gen AI is a Mirror**
