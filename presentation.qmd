@@ -340,7 +340,11 @@ Remember: Gen AI is a mirror. It reflects the quality of thinking behind the pro
 
 ---
 
-### Remember:
+::: {.r-fit-text}
+**Remember:**
+:::
+
+<br>
 
 ::: {.fragment}
 ::: {.incremental}
@@ -357,5 +361,4 @@ Remember: Gen AI is a mirror. It reflects the quality of thinking behind the pro
 :::
 :::
 
----
 
