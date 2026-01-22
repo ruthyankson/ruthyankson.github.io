@@ -1,7 +1,7 @@
 ---
 title: "Generative AI Can't Replace Expertise"
 subtitle: "It Exposes Its Absence"
-author: "Your Name"
+author: "Ruth Yankson"
 date: today
 format:
   revealjs:
@@ -17,18 +17,6 @@ format:
 
 ## Understanding the Role of Data Science Expertise {.smaller background-color="#e3f2fd"}
 
-::: {.r-fit-text}
-**Can you competently use generative AI for data science workflows when you've barely been introduced to data science concepts?**
-:::
-
-<br>
-
-::: {.fragment .fade-in}
-### The Uncomfortable Truth
-
-**Generative AI doesn't replace expertise—it exposes its absence.**
-:::
-
 ::: {.notes}
 Good morning everyone. Here's a critical question: Can you competently use generative AI for data science workflows when you've barely been introduced to data science concepts? 
 
@@ -41,7 +29,7 @@ The uncomfortable truth is this: Generative AI doesn't replace expertise—it ex
 
 ::: {.columns}
 ::: {.column width="50%"}
-### Five Core Stages
+#### Five Core Stages
 
 1. **Data Collection & Cleaning**
 2. **Exploratory Analysis**
@@ -51,7 +39,7 @@ The uncomfortable truth is this: Generative AI doesn't replace expertise—it ex
 :::
 
 ::: {.column width="50%"}
-### The Reality
+#### The Reality
 
 ::: {.fragment}
 Gen AI can assist at every step...
@@ -70,7 +58,7 @@ If you don't know what questions to ask, you won't recognize when the answers ar
 ::: {.notes}
 The data science workflow has five core stages: data collection and cleaning, exploratory analysis, modeling and evaluation, interpretation, and communication.
 
-At each stage, critical decisions must be made—decisions that require understanding the why behind the techniques, not just the how. Gen AI can assist at every step, but here's the catch: it acts as a stress test of your understanding. If you don't know what questions to ask, you won't recognize when the answers are wrong.
+At each stage, critical decisions must be made: decisions that require understanding the why behind the techniques, not just the how. Gen AI can assist at every step, but here's the catch: it acts as a stress test of your understanding. If you don't know what questions to ask, you won't recognize when the answers are wrong.
 :::
 
 ---
@@ -79,7 +67,7 @@ At each stage, critical decisions must be made—decisions that require understa
 
 ::: {.columns}
 ::: {.column width="33%"}
-### Data Collection
+#### Data Collection
 
 ::: {.fragment}
 ✓ Suggests cleaning steps instantly
@@ -91,7 +79,7 @@ At each stage, critical decisions must be made—decisions that require understa
 :::
 
 ::: {.column width="33%"}
-### Visualization
+#### Visualization
 
 ::: {.fragment}
 ✓ Beautiful plots in seconds
@@ -103,7 +91,7 @@ At each stage, critical decisions must be made—decisions that require understa
 :::
 
 ::: {.column width="33%"}
-### Interpretation
+#### Interpretation
 
 ::: {.fragment .highlight-red}
 **Most Dangerous**
@@ -133,7 +121,7 @@ Interpretation: This is the most dangerous stage. Gen AI produces confident narr
 
 ::: {.columns}
 ::: {.column width="50%"}
-### Beginner Approach
+#### Beginner Approach
 
 ::: {.fragment}
 - Used Gen AI blindly
@@ -151,7 +139,7 @@ Interpretation: This is the most dangerous stage. Gen AI produces confident narr
 :::
 
 ::: {.column width="50%"}
-### Expert Approach
+#### Expert Approach
 
 ::: {.fragment}
 - Used same Gen AI tool
@@ -192,10 +180,6 @@ Why? Because Gen AI mimics competence brilliantly, but cannot verify truth. The 
 2. When your AI-generated code runs successfully, **does that mean your analysis is correct?**
 
 3. Can you identify when Gen AI **hallucinates** a statistical method or misapplies a technique?
-
-4. **Who is responsible** when an AI-suggested analysis leads to a biased or flawed decision?
-
-5. If you can't explain ***why*** the AI recommended that approach, **should you trust it?**
 :::
 
 ::: {.notes}
@@ -216,7 +200,7 @@ Consider these questions:
 
 ::: {.columns}
 ::: {.column width="50%"}
-### Claim 1
+#### Claim 1
 
 *"Gen AI democratizes data science—anyone can do it now!"*
 
@@ -230,7 +214,7 @@ Running code ≠ solving problems correctly
 :::
 
 ::: {.column width="50%"}
-### Claim 2
+#### Claim 2
 
 *"AI will just get better and handle edge cases."*
 
@@ -247,7 +231,7 @@ Cannot understand context, ethics, or domain nuances
 <br>
 
 ::: {.fragment}
-### Claim 3: *"Experts are being alarmist"*
+#### Claim 3: *"Experts are being alarmist"*
 
 **The evidence:** 96% of developers don't trust AI code, yet only 48% check it. That's not alarmism—that's **dangerous overconfidence**.
 :::
@@ -268,7 +252,7 @@ The claim that 'experts are being alarmist' ignores reality: 96% of developers d
 
 ## Statistical Evidence {background-color="#1976d2"}
 
-### The Data Tells a Clear Story
+#### The Data Tells a Clear Story
 
 ::: {.r-fit-text}
 :::
@@ -304,7 +288,7 @@ agree AI code often appears correct when it contains errors
 <br>
 
 ::: {.fragment}
-### This is Cargo-Cult Data Science
+#### This is Cargo-Cult Data Science
 
 Practices followed because they **look right**, not because they're **understood**
 
@@ -358,7 +342,7 @@ It accelerates **good** data science *and* **bad** data science alike.
 <br>
 
 ::: {.fragment}
-### Remember:
+#### Remember:
 
 ::: {.incremental}
 - If Gen AI makes your work **better**, it's because **you were already good**
