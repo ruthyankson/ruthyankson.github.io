@@ -12,7 +12,7 @@ format:
     chalkboard: true
     footer: "Generative AI & Data Science Expertise"
     logo: ""
-    css: custom.css
+    css: styles.css
 ---
 
 ## Understanding the Role of Data Science Expertise {.smaller background-color="#e3f2fd"}
