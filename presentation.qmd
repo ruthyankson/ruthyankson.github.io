@@ -197,7 +197,7 @@ Consider these questions:
 ::: {.fragment .fade-in}
 **Why it's weak:**
 
-Democratizing access to tools ≠ democratizing understanding
+Democratizing access to tools $\neq$ democratizing understanding
 
 Running code $\neq$ solving problems correctly
 :::
@@ -218,15 +218,13 @@ Cannot understand context, ethics, or domain nuances
 :::
 
 ::: {.notes}
-Some argue: 'Gen AI democratizes data science—anyone can do it now!'
+Some argue: 'Gen AI democratizes data science: anyone can do it now!'
 
 Weak because: Democratizing access to tools doesn't democratize understanding. Running code isn't the same as solving problems correctly.
 
 Others say: 'AI will just get better and handle these edge cases.'
 
 Weak because: AI generates statistically plausible outputs, not conceptually correct ones. It cannot understand real-world context, ethical constraints, or domain-specific nuances. That gap won't close simply by improving the model.
-
-The claim that 'experts are being alarmist' ignores reality: 96% of developers don't fully trust AI-generated code, yet only 48% always check it before use. That's not alarmism—that's evidence of dangerous overconfidence.
 :::
 :::
 
@@ -239,9 +237,12 @@ The claim that 'experts are being alarmist' ignores reality: 96% of developers d
 Practices followed because they **look right**, not because they're **understood**
 
 **Real-world consequences:** 
+
+::: {.fragment}
 - Flawed decisions 
 - Biased systems 
 - Ethical breaches
+:::
 
 :::
 
