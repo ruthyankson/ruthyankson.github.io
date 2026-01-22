@@ -12,6 +12,7 @@ website:
         text: About
       - href: blog.qmd
         text: Blog
+      - href: presentation.qmd
 
 format:
   html:
