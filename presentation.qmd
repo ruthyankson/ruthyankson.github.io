@@ -15,14 +15,6 @@ format:
 ---
 
 
-::: {.notes}
-Good morning everyone. Here's a critical question: Can you competently use generative AI for data science workflows when you've barely been introduced to data science concepts? 
-
-The uncomfortable truth is this: Generative AI doesn't replace expertise—it exposes its absence. Let me show you why.
-:::
-
----
-
 ### What is the Data Science Workflow? {background-color="#bbdefb"}
 
 ::: {.columns}
