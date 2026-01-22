@@ -232,6 +232,20 @@ The claim that 'experts are being alarmist' ignores reality: 96% of developers d
 
 ---
 
+::: {.fragment}
+#### This is Cargo-Cult Data Science
+
+Practices followed because they **look right**, not because they're **understood**
+
+**Real-world consequences:** Flawed decisions • Biased systems • Ethical breaches
+:::
+
+::: {.notes}
+This is cargo-cult data science: practices followed because they look right, not because they're understood. The consequences in real-world settings include flawed decisions, biased systems, and ethical breaches.
+:::
+
+---
+
 ### Statistical Evidence {background-color="#1976d2"}
 
 #### The Data Tells a Clear Story
@@ -264,22 +278,12 @@ ggplot(df, aes(x = reorder(category, percentage), y = percentage, fill = group))
   theme(legend.position = "none")
 ```
 
-::: {.fragment}
-#### This is Cargo-Cult Data Science
-
-Practices followed because they **look right**, not because they're **understood**
-
-**Real-world consequences:** Flawed decisions • Biased systems • Ethical breaches
-:::
-
 ::: {.notes}
 The data tells a clear story:
 
 - 96% of software developers report they don't fully trust AI-generated code to be functionally correct
 - Yet only 48% said they always check the code before using it
 - 61% agreed that AI-generated code often appears correct even when it contains errors
-
-This is cargo-cult data science: practices followed because they look right, not because they're understood. The consequences in real-world settings include flawed decisions, biased systems, and ethical breaches.
 :::
 
 ---
@@ -342,7 +346,7 @@ So, with these statistics in front of you, are you convinced enough to up your g
 
 Remember: Gen AI is a mirror. It reflects the quality of thinking behind the prompt. It accelerates good data science and bad data science alike.
 
-If Gen AI makes your work better, it's because you were already good. If it makes your work worse, it's not because the tool failed—it's because it revealed what was missing.
+If Gen AI makes your work better, it's because you were already good. If it makes your work worse, it's not because the tool failed; it's because it revealed what was missing.
 
 Thank you.
 :::
