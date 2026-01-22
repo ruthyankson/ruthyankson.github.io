@@ -17,32 +17,12 @@ format:
 
 ### What is the Data Science Workflow? {background-color="#bbdefb"}
 
-::: {.columns}
-::: {.column width="50%"}
-#### Five Core Stages
+::: {#fig-ds_workflow width="80%"}
+![](img/ds_workflow.png)
 
-1. **Data Collection & Cleaning**
-2. **Exploratory Analysis**
-3. **Modeling & Evaluation**
-4. **Interpretation**
-5. **Communication**
-:::
+Overview of the data science workflow showing five stages with AI assistance.
 
-::: {.column width="50%"}
-#### The Reality
-
-::: {.fragment}
-Gen AI can assist at every step...
-:::
-
-::: {.fragment}
-**But it acts as a stress test of your understanding**
-:::
-
-::: {.fragment}
-If you don't know what questions to ask, you won't recognize when the answers are wrong.
-:::
-:::
+*Created with ChatGPT*
 :::
 
 ::: {.notes}
@@ -116,7 +96,7 @@ Interpretation: This is the most dangerous stage. Gen AI produces confident narr
 ::: {.fragment}
 - Used Gen AI blindly
 - Got visually appealing chart
-- Saw high accuracy → stopped questioning
+- Saw high accuracy $\rightarrow$ stopped questioning
 :::
 
 ::: {.fragment .highlight-red}
@@ -162,7 +142,7 @@ Why? Because Gen AI mimics competence brilliantly, but cannot verify truth. The 
 
 ---
 
-### Thought-Provoking Questions {background-color="#42a5f5"}
+### Questions we Can't Skip {background-color="#42a5f5"}
 
 ::: {.incremental}
 1. If Gen AI is so powerful, **why do two people get completely different results** from the same prompt?
@@ -170,6 +150,10 @@ Why? Because Gen AI mimics competence brilliantly, but cannot verify truth. The 
 2. When your AI-generated code runs successfully, **does that mean your analysis is correct?**
 
 3. Can you identify when Gen AI **hallucinates** a statistical method or misapplies a technique?
+:::
+
+::: {#fig-ds_workflow width="80%"}
+![](img/questionme.jpg)
 :::
 
 ::: {.notes}
@@ -283,6 +267,10 @@ ggplot(df, aes(x = reorder(category, percentage), y = percentage, fill = group))
   theme_minimal(base_size = 16) +
   theme(legend.position = "none")
 ```
+
+::: {.fragment}
+*Source: [Techradar](https://www.techradar.com/pro/devs-dont-trust-ai-code-but-many-say-they-still-dont-check-it-anyways?utm_source=chatgpt.com)*
+:::
 
 ::: {.notes}
 The data tells a clear story:
