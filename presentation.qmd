@@ -199,7 +199,7 @@ Consider these questions:
 
 Democratizing access to tools ≠ democratizing understanding
 
-Running code ≠ solving problems correctly
+Running code $\neq$ solving problems correctly
 :::
 :::
 
@@ -216,7 +216,6 @@ AI generates **statistically plausible** outputs, not **conceptually correct** o
 Cannot understand context, ethics, or domain nuances
 :::
 :::
-:::
 
 ::: {.notes}
 Some argue: 'Gen AI democratizes data science—anyone can do it now!'
@@ -229,15 +228,21 @@ Weak because: AI generates statistically plausible outputs, not conceptually cor
 
 The claim that 'experts are being alarmist' ignores reality: 96% of developers don't fully trust AI-generated code, yet only 48% always check it before use. That's not alarmism—that's evidence of dangerous overconfidence.
 :::
+:::
 
 ---
 
+### This is Cargo-Cult Data Science
+
 ::: {.fragment}
-#### This is Cargo-Cult Data Science
 
 Practices followed because they **look right**, not because they're **understood**
 
-**Real-world consequences:** Flawed decisions • Biased systems • Ethical breaches
+**Real-world consequences:** 
+- Flawed decisions 
+- Biased systems 
+- Ethical breaches
+
 :::
 
 ::: {.notes}
