@@ -14,6 +14,8 @@ website:
         text: Blog
       - href: presentation.qmd
         text: Presentation
+      - href: presentation_video.qmd
+        text: First Presentation Video
 
 format:
   html:
