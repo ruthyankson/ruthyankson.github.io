@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.8.23">
 
   <meta name="author" content="Ruth Yankson">
-  <meta name="dcterms.date" content="2026-01-24">
+  <meta name="dcterms.date" content="2026-01-29">
   <title>My Brand – Generative AI Can’t Replace Expertise</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -29,7 +29,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    q { quotes: "“" "”" "‘" "’"; }
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-7aaf31681eed659f0200bcc8fe9a56fc.css">
   <link rel="stylesheet" href="styles.css">
@@ -143,22 +142,20 @@ Ruth Yankson
 </div>
 </div>
 
-  <p class="date">2026-01-24</p>
+  <p class="date">2026-01-29</p>
 </section>
 <section class="slide level2">
 
-<h3 data-background-color="#bbdefb" id="what-is-the-data-science-workflow">What is the Data Science Workflow?</h3>
+<h3 data-background-color="#bbdefb" id="how-can-gen-ai-assist-data-scientists">How Can Gen AI Assist Data Scientists?</h3>
 <div class="fragment">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="img/ds_workflow.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
-<p><em>Created with ChatGPT</em></p>
 </div>
 <aside class="notes">
-<p>The data science workflow has five core stages: data collection and cleaning, exploratory analysis, modeling and evaluation, interpretation, and communication.</p>
-<p>At each stage, critical decisions must be made: decisions that require understanding the why behind the techniques, not just the how. Gen AI can assist at every step, but here’s the catch: it acts as a stress test of your understanding. If you don’t know what questions to ask, you won’t recognize when the answers are wrong.</p>
+<p>I believe that generative AI can’t replace expertise. It exposes its absence. Whether you’re a beginner or expert, how can AI assist you through the data science workflow? During data collection, it could help you generate synthetic data to complement your sparse dataset. Generative AI can also instantly suggest cleaning steps_ and oh, the magic of a beautiful plot created in a matter of seconds. Indeed, it could present possible models for your specific case and even recommend the best one to you.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -173,39 +170,16 @@ Ruth Yankson
 </section>
 <section class="slide level2">
 
-<h3 data-background-color="#90caf9" id="how-can-gen-ai-assist">How Can Gen AI Assist?</h3>
-<div class="columns">
-<div class="column" style="width:33%;">
-<h4 id="data-collection">Data Collection</h4>
+<h3 data-background-color="#f8d7da" id="red-flags"><span style="color: #ff0000;">RED FLAGS</span></h3>
 <div class="fragment">
-<p>✓ Suggests cleaning steps instantly</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/confnot.png" class="quarto-figure quarto-figure-center" style="width:40.0%"></p>
+</figure>
 </div>
-<div class="fragment">
-<p>✗ <strong>Without expertise:</strong> Remove meaningful outliers, introduce bias</p>
 </div>
-</div><div class="column" style="width:33%;">
-<h4 id="visualization">Visualization</h4>
-<div class="fragment">
-<p>✓ Beautiful plots in seconds</p>
-</div>
-<div class="fragment">
-<p>✗ <strong>Without context:</strong> Misleading correlations, hidden confounders</p>
-</div>
-</div><div class="column" style="width:33%;">
-<h4 id="interpretation">Interpretation</h4>
-<div class="fragment highlight-red">
-<p><strong>Most Dangerous</strong></p>
-</div>
-<div class="fragment">
-<p>✗ Confident narratives with weak evidence</p>
-<p>✗ Implies causality where only correlation exists</p>
-</div>
-</div></div>
 <aside class="notes">
-<p>Let’s focus on three areas where Gen AI seems most helpful:</p>
-<p>Data Collection: AI can suggest cleaning steps instantly—handling missing values, removing outliers. Sounds great, right? But without expertise, you might remove outliers that contain meaningful signals or impute missing data incorrectly, introducing bias.</p>
-<p>Visualization: AI generates beautiful plots in seconds. However, a correlation plot without context can mislead faster than no plot at all. It might hide confounding variables or imply stability where none exists.</p>
-<p>Interpretation: This is the most dangerous stage. Gen AI produces confident narratives even when evidence is weak. It can explain patterns that don’t generalize and imply causality where only correlation exists.</p>
+<p>Yet, when it comes to interpretation, you’d better take the LLM’s results with a grain of salt. Why? It could confidently present narratives with weak evidence and imply causality where only correlation exists. Even at the cleaning step, it could remove meaningful outliers or introduce bias. This bias may also appear in your synthetic data.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -221,143 +195,15 @@ Ruth Yankson
 <section class="slide level2">
 
 <h3 data-background-color="#64b5f6" id="a-tale-of-two-outputs">A Tale of Two Outputs</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h4 id="beginner-approach">Beginner Approach</h4>
 <div class="fragment">
-<ul>
-<li>Used Gen AI blindly</li>
-<li>Got visually appealing chart</li>
-<li>Saw high accuracy <span class="math inline">\(\rightarrow\)</span> stopped questioning</li>
-</ul>
-</div>
-<div class="fragment highlight-red">
-<p><strong>Hidden Problems:</strong></p>
-<ul>
-<li>Masked class imbalance</li>
-<li>Inappropriate metrics</li>
-<li>Unsupported conclusions</li>
-</ul>
-</div>
-</div><div class="column" style="width:50%;">
-<h4 id="expert-approach">Expert Approach</h4>
-<div class="fragment">
-<ul>
-<li>Used same Gen AI tool</li>
-<li>Asked probing questions</li>
-<li>Verified assumptions</li>
-<li>Cross-checked domain knowledge</li>
-</ul>
-</div>
-<div class="fragment highlight-current-blue">
-<p><strong>Same tool, dramatically different outcomes</strong></p>
-</div>
-</div></div>
-<p><br></p>
-<div class="r-fit-text fragment">
-<p><strong>Why?</strong> Gen AI mimics competence brilliantly, but cannot verify truth.</p>
-</div>
-<aside class="notes">
-<p>Look at these two visualizations of the same dataset.</p>
-<p>The beginner used Gen AI and got a visually appealing chart—clean, colorful, professional-looking. They saw high accuracy scores and stopped questioning. But this chart masks class imbalance, uses inappropriate metrics, and draws conclusions the data can’t support.</p>
-<p>The expert used the same Gen AI tool differently. They asked probing questions, verified assumptions, cross-checked against domain knowledge, and identified when the AI’s confident suggestions were conceptually wrong. Same tool, dramatically different outcomes.</p>
-<p>Why? Because Gen AI mimics competence brilliantly, but cannot verify truth. The expert knew what to look for; the beginner didn’t know what they didn’t know.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 data-background-color="#42a5f5" id="questions-we-cant-skip">Questions we Can’t Skip</h3>
-<ol type="1">
-<li class="fragment"><p>If Gen AI is so powerful, <strong>why do two people get completely different results</strong> from the same prompt?</p></li>
-<li class="fragment"><p>When your AI-generated code runs successfully, <strong>does that mean your analysis is correct?</strong></p></li>
-<li class="fragment"><p>Can you identify when Gen AI <strong>hallucinates</strong> a statistical method or misapplies a technique?</p></li>
-</ol>
-<aside class="notes">
-<p>Consider these questions:</p>
-<ol type="1">
-<li>If Gen AI is so powerful, why do two people get completely different results from the same prompt?</li>
-<li>When your AI-generated code runs successfully, does that mean your analysis is correct?</li>
-<li>Can you identify when Gen AI hallucinates a statistical method or misapplies a technique?</li>
-<li>Who is responsible when an AI-suggested analysis leads to a biased or flawed decision?</li>
-<li>If you can’t explain why the AI recommended that approach, should you trust it?</li>
-</ol>
-<p>[Pause here to let questions sink in]</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 data-background-color="#2196f3" id="common-claims">Common Claims</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h4 id="claim-1">Claim 1</h4>
-<p><em><q>Gen AI democratizes data science: anyone can do it now!</q></em></p>
-<div class="fragment fade-in">
-<p><strong>Why it’s weak:</strong></p>
-<p>Democratizing access to tools <span class="math inline">\(\neq\)</span> democratizing understanding</p>
-<p>Running code <span class="math inline">\(\neq\)</span> solving problems correctly</p>
-</div>
-</div><div class="column" style="width:50%;">
-<h4 id="claim-2">Claim 2</h4>
-<p><em><q>AI will just get better and handle edge cases.</q></em></p>
-<div class="fragment fade-in">
-<p><strong>Why it’s weak:</strong></p>
-<p>AI generates <strong>statistically plausible</strong> outputs, not <strong>conceptually correct</strong> ones</p>
-<p>Cannot understand context, ethics, or domain nuances</p>
-</div>
-</div><aside class="notes">
-<p>Some argue: <q>Gen AI democratizes data science: anyone can do it now!</q></p>
-<p>Weak because: Democratizing access to tools doesn’t democratize understanding. Running code isn’t the same as solving problems correctly.</p>
-<p>Others say: <q>AI will just get better and handle these edge cases.</q></p>
-<p>Weak because: AI generates statistically plausible outputs, not conceptually correct ones. It cannot understand real-world context, ethical constraints, or domain-specific nuances. That gap won’t close simply by improving the model.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</div>
-</section>
-<section class="slide level2">
-
-<h3 id="this-is-cargo-cult-data-science">This is Cargo-Cult Data Science</h3>
-<div class="fragment">
-<p>Practices followed because they <strong>look right</strong>, not because they’re <strong>understood</strong></p>
-<p><strong>Real-world consequences:</strong></p>
-<div class="fragment">
-<ul>
-<li>Flawed decisions</li>
-<li>Biased systems</li>
-<li>Ethical breaches</li>
-</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/twotale.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
 </div>
 </div>
 <aside class="notes">
-<p>This is cargo-cult data science: practices followed because they look right, not because they’re understood. The consequences in real-world settings include flawed decisions, biased systems, and ethical breaches.</p>
+<p>A beginner may use Gen AI blindly by following practices because they look right, not due to comprehension. Conversely, an expert would ask probing questions, verify assumptions, and cross-check outcomes with domain knowledge. Perfectly mimicking expertise level, the same LLM gives different results.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -373,18 +219,12 @@ Ruth Yankson
 <section class="slide level2">
 
 <h3 data-background-color="#1976d2" id="statistical-evidence">Statistical Evidence</h3>
-<h4 id="the-data-tells-a-clear-story">The Data Tells a Clear Story</h4>
 
-<img data-src="presentation_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"><div class="fragment">
+<img data-src="presentation_files/figure-revealjs/unnamed-chunk-1-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><div class="fragment center small-text">
 <p><em>Source: <a href="https://www.techradar.com/pro/devs-dont-trust-ai-code-but-many-say-they-still-dont-check-it-anyways?utm_source=chatgpt.com">Techradar</a></em></p>
 </div>
 <aside class="notes">
-<p>The data tells a clear story:</p>
-<ul>
-<li>96% of software developers report they don’t fully trust AI-generated code to be functionally correct</li>
-<li>Yet only 48% said they always check the code before using it</li>
-<li>61% agreed that AI-generated code often appears correct even when it contains errors</li>
-</ul>
+<p>Let’s take a look at the statistics. According to Techradar, 96% of developers don’t fully trust AI-Generated Code; 61% believe AI code appears correct when it contains errors, and 48% always check AI code before using it.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -400,20 +240,15 @@ Ruth Yankson
 <section class="slide level2">
 
 <h3 data-background-color="#0d47a1" id="conclusion">Conclusion</h3>
-<div class="r-fit-text">
-<p><strong>A Question for You</strong></p>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/takecharge.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
 </div>
-<p><br></p>
-<div class="fragment fade-in-then-semi-out">
-<p>With these statistics in front of you, are you convinced enough to <strong>up your game as an expert data scientist</strong> by studying rigorously and critically evaluating AI outputs?</p>
-</div>
-<p><br></p>
-<div class="fragment fade-in-then-semi-out">
-<p>Or do you still want to stay complacent and <strong>let Gen AI control how you solve problems?</strong></p>
 </div>
 <aside class="notes">
-<p>Let me bring this home with a question:</p>
-<p>So, with these statistics in front of you, are you convinced enough to up your game as an expert data scientist by studying rigorously and critically evaluating AI outputs? Or do you still want to stay complacent and let Gen AI control how you solve problems?</p>
+<p>So, are you convinced enough to up your game as a data scientist by studying rigorously and critically evaluating AI outputs? Or do you still want to stay complacent and let Gen AI control how you solve problems? Whatever you choose, remember that if Gen AI makes your work better, it’s because you were already good; the opposite is true.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -428,51 +263,15 @@ Ruth Yankson
 </section>
 <section class="slide level2">
 
-<h3 data-background-color="#0d47a1" id="section"></h3>
+<div class="fragment center">
 <div class="r-fit-text">
-<p><strong>Gen AI is a Mirror</strong></p>
+<p><strong>Thank you!</strong></p>
 </div>
-<p><br></p>
-<p>It reflects the quality of thinking behind the prompt.</p>
-<p>It accelerates <strong>good</strong> data science <em>and</em> <strong>bad</strong> data science alike.</p>
-<aside class="notes">
-<p>Remember: Gen AI is a mirror. It reflects the quality of thinking behind the prompt. It accelerates good data science and bad data science alike.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<p><img data-src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3ZmcmI4cTJtcjY0OGMxd25jem03emlldGxtMG91a2Nsa3RxMGtwYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/imHJKSWL5rt8n0fZO8/giphy.gif"></p>
+</div>
+
+
 </section>
-<section class="slide level2">
-
-<div class="r-fit-text">
-<p><strong>Remember:</strong></p>
-</div>
-<p><br></p>
-<div class="fragment">
-<ul>
-<li class="fragment">If Gen AI makes your work <strong>better</strong>, it’s because <strong>you were already good</strong></li>
-<li class="fragment">If it makes your work <strong>worse</strong>, it’s not because the tool failed: it’s because <strong>it revealed what was missing</strong></li>
-</ul>
-</div>
-</section>
-<section class="slide level2">
-
-<div class="fragment">
-<div class="r-fit-text">
-<p><strong>Thank you.</strong></p>
-</div>
-</div>
-
-
-
-<img data-src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3ZmcmI4cTJtcjY0OGMxd25jem03emlldGxtMG91a2Nsa3RxMGtwYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/imHJKSWL5rt8n0fZO8/giphy.gif" class="r-stretch"></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
