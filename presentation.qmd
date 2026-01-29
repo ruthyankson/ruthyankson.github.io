@@ -67,7 +67,7 @@ library(ggplot2)
 df <- data.frame(
   category = c(
     "Don't Fully Trust\nAI-Generated Code",
-    "Always Check Code\nBefore Using",
+    "Always Check AI Code\nBefore Using",
     "AI Code Appears Correct\nWhen It Contains Errors"
   ),
   percentage = c(96, 48, 61),
@@ -103,7 +103,7 @@ Let’s take a look at the statistics. According to Techradar, 96% of developers
 :::
 
 ::: {.notes}
-So, are you convinced enough to up your game as a data scientist by studying rigorously and critically evaluating AI outputs? Or do you still want to stay complacent and let Gen AI control how you solve problems? Whatever you choose, remember that if Gen AI makes your work better, it’s because you were already good; the opposite is true.
+So, are you convinced enough to up your game as a data scientist by studying rigorously and critically evaluating AI outputs? Or do you still want to stay complacent and let Gen AI control how you solve problems? Whatever you choose, remember that if Gen AI makes your work better, it’s because you were already good; If it makes your work worse, it's not because the tool failed: it's because it revealed what was missing.
 :::
 
 ---
