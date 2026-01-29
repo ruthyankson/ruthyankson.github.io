@@ -96,6 +96,7 @@ Let’s take a look at the statistics. According to Techradar, 96% of developers
 ---
 
 ### Conclusion {background-color="#0d47a1"}
+#### Gen AI is a Mirror of Expertise
 
 ::: {.fragment}
 ![](img/takecharge.png){width="100%" fig-align="center"}
